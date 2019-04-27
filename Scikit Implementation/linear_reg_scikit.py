@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("LinearRegression/Scikit Implementation/Salary_Data.csv")
-print(data)
+data = pd.read_csv("G:/Github projects/LinearRegression/Scikit Implementation/Salary_Data.csv")
+# print(data)
 
 X = data[['YearsExperience']]
 y = data['Salary']
@@ -15,7 +15,7 @@ plt.ylabel('Salary')
 plt.title('Linear Regression')
 plt.show()
 
-print(X.shape, y.shape)
+# print(X.shape, y.shape)
 
 # Model Building
 from sklearn.linear_model import LinearRegression
@@ -42,3 +42,12 @@ plt.xlabel('Years Experience')
 plt.ylabel('Salary')
 plt.title('Linear Regression')
 plt.show()
+
+
+'''
+OUTPUT:
+Prediction for 2.3 years of prediction:  47527.11353801538
+
+Equation of line y = 9449.962321455074x + 25792.20019866871
+
+'''

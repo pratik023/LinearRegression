@@ -32,6 +32,7 @@ plt.ylabel('Salary')
 plt.title('Linear Regression')
 plt.show()
 
+# Adding an extra column of ones
 X = np.c_[np.ones(len(y)), X]
 
 y = y.values.reshape(len(y), 1)

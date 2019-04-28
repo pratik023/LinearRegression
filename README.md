@@ -1,13 +1,19 @@
 # LinearRegression
 #### Linear Regression in Python - Scikit and Scratch
 
-## 1. Scikit Implementation
+## 1. Simple Linear Regression
+Simple Linear Regression establishes relation between two variables. One is called as a 'dependent variable' and the other is called as 'independent varible'. The dependent variable is used to predict the value of independent variable.
+The model is represented as: y = mx + c
+where, y - independent variable
+       x - dependent variable
+       c - y_intercept (i.e. value of y when x=0)
 
+### Scikit Implementation
 This is a very basic implementation of Linear Regression for beginners. It includes reading a dataset and using it to build a model
 This model is then used to predict outcome for test point.
 It involves some visualization of data and the best fit line.
 
-## 2. Scratch Implementation
+### Scratch Implementation
 
 This code unfolds the logic behind the working of Linear Regression. The scikit code is very abstract, easy to implement for beginners but doesn't give enough idea about what's happening at the backend
 The code implements Linear Regression using the 'Gradient Descent Approach' for updating the weights.

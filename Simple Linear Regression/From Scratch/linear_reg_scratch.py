@@ -3,12 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-def compute_cost(X, y, theta):
-    m = len(y)
-    cost = (1/(2*m)) * (np.sum((np.dot(X, theta) - y) ** 2))
-    return cost
-
-
 def gradient_descent(X, y, theta, alpha, num_iters):
     m = len(y)
    
